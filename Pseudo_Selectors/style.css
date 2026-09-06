@@ -1,0 +1,50 @@
+h1:hover{
+    color:blue;
+}
+/* Pseudo Element Selectors */
+h1::before{
+    content:"T";
+    color:red;
+}
+h1::after{
+    content:"😃";
+}
+/* Pseudo Class Selectors */
+p:hover{
+    color:blue;
+}
+div{
+    width:100px;
+    height:100px;
+    background-color: black;
+}
+div:hover{
+    background-color: red;
+    height:200px;
+    width:200px;
+}
+input:focus{
+    outline:1px solid red;
+    border:1px solid red;
+}
+input::placeholder{
+    color:red;
+}
+input{
+    color:blue;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    color:green;
+    text-decoration: line-through;
+    font-size: 30px;
+}
+/* click */
+a:active{  
+    color:aqua;
+}
