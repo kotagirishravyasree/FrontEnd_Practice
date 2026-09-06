@@ -1,0 +1,20 @@
+#id{
+    color:green;
+}
+.para{
+    color:purple;
+}
+/* 2 element selectors = score:2 */
+div p{
+    color:blue;
+}
+/* 1 element selectors = score:1 */
+p{
+    color:red !important;
+}
+/* attribute selector , grouping */
+input[type="text"], input[type="email"]{
+    color:red;
+
+}
+

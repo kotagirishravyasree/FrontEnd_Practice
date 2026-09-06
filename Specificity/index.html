@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CSS Specificity</h1>
+   <!-- Specificity priority order:
+    1.!important keyword
+    2.Inline Style
+    3.id selectors
+    4.class selectors,attributes,& pseudo-classes
+    5.type selectors & pseudo-elements -->
+    <div>
+       <p style="color:dodgerblue;" id="id" class="para">This is para 1 inside div</p>
+       <p class="para">This is para 2 inside div</p>
+       <p class="para">This is para 3 inside div</p>
+    </div>
+    <input type="text" placeholder="text">
+    <input type="email" placeholder="email">
+</body>
+</html>
